@@ -30,9 +30,7 @@ spec:
             memory: 100Mi
         livenessProbe:
           httpGet:
-              path: /
-              port: 80
-          tcpSocket:
+            path: /
             port: 80
           initialDelaySeconds: 5
           timeoutSeconds: 5
