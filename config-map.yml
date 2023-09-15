@@ -7,7 +7,7 @@ data:
   default.conf: | 
     server {
       listen 80;
-      server_name_;
+      server_name _;
       location / {
         default_type application/json;
         return 200 "Monchavin Pinthong";
